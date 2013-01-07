@@ -18,6 +18,10 @@ body {
 	float:right;
 }
 
+.div_100 {
+	width:100%;
+}
+
 .bar-title ~ .content {
 	top:49px;
 }
@@ -38,6 +42,37 @@ body {
 
 .usd:before {
 	content:"$" !important;
+}
+
+.big_btn {
+	display:block;
+	width:auto;
+	margin:10px 20px 0 20px;
+	background:#CCC;
+	height:40px;
+	text-align:center;
+	line-height:39px;
+	font-family:'Oron W26 Black', Helvetica, Arial, sans-serif;
+	font-size:180%;
+	color:#000;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	border-radius:6px;
+	background:url(../img/big_btn_bg.jpg) 0 0 repeat-x;
+	box-shadow:0 1px 2px #000;
+}
+
+.big_btn:active {
+	background:url(../img/big_btn_bg.jpg) 0 -40px repeat-x;
+	box-shadow:none;
+}
+
+.big_btn.blue {
+	background:url(../img/big_btn_blue_bg.jpg) repeat-x;
+}
+
+.big_btn.blue:active {
+	background:url(../img/big_btn_blue_bg.jpg) 0 -40px repeat-x;
+	box-shadow:none;
 }
 
 /*///////////////////// BACK BUTTON //////////////////////////*/
@@ -69,6 +104,8 @@ body {
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
 }
 
 #ios-arrow-left:before{
@@ -153,6 +190,13 @@ body {
 
 #header .button:active {
 	background: url(../img/m_header_btn_bg.jpg) 0 -34px repeat-x;
+}
+#header h2 {
+	display:inline-block;
+	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
+	font-size:150%;
+	color:#fff;
+	line-height:40px;
 }
 
 .bar-title .title + [class*="button"]:last-child, .bar-title .button + [class*="button"]:last-child, .bar-title .pull-right[class*="button"] {
@@ -360,5 +404,40 @@ body {
 	color:#6d6d6d;
 	font-weight:bold;
 }
+
+.trans_tags {
+	list-style:none;
+	display:block;
+	margin-left: 10px;
+    margin-right: 10px;
+	margin-top:15px;
+	margin:15px 10px 20px 10px;
+    width: auto;
+}
+
+.trans_tags li {
+	display:inline-block;
+	float:right;
+	background:url(../img/trans_tags_bg.jpg) no-repeat right top #ff9900;
+	border-radius:4px 0 0 4px;
+	padding:0 20px 0 10px;
+	height:25px;
+	line-height:24px;
+	color:#fff;
+	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
+	text-align:center;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.trans_tags li:last-child {
+	background:url(../img/trans_add_tags_bg.jpg) no-repeat right top #999;
+}
+ 
+.trans_tags li .icon-plus {
+	display:block;
+	margin-top:1px;
+}
+
 
 
