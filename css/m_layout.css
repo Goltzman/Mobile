@@ -51,7 +51,7 @@ body {
 	background:#CCC;
 	height:40px;
 	text-align:center;
-	line-height:39px;
+	line-height:42px;
 	font-family:'Oron W26 Black', Helvetica, Arial, sans-serif;
 	font-size:180%;
 	color:#000;
@@ -72,6 +72,16 @@ body {
 
 .big_btn.blue:active {
 	background:url(../img/big_btn_blue_bg.jpg) 0 -40px repeat-x;
+	box-shadow:none;
+}
+
+.big_btn.yellow {
+	background:url(../img/big_btn_yellow_bg.jpg) repeat-x;
+	margin-bottom:20px;
+}
+
+.big_btn.yellow:active {
+	background:url(../img/big_btn_yellow_bg.jpg) 0 -40px repeat-x;
 	box-shadow:none;
 }
 
@@ -188,6 +198,12 @@ body {
 	font-size: 16px;
 }
 
+#header .button.menu {
+	position:absolute;
+	left:5px;
+	top:5px;
+}
+
 #header .button:active {
 	background: url(../img/m_header_btn_bg.jpg) 0 -34px repeat-x;
 }
@@ -197,6 +213,37 @@ body {
 	font-size:150%;
 	color:#fff;
 	line-height:40px;
+}
+
+#search_bar {
+	position:absolute;
+	width:100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding:8px;
+	height:50px;
+	background:url(../img/search_bar_bg.jpg) repeat;
+	box-shadow:0 1px 4px #000000;
+	top:50px;
+	right:0;
+}
+
+#search_bar input {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width:100%;
+	height:34px;
+	padding:5px;
+	border-radius:8px;
+	background:rgba(255,255,255,0.1);
+	border:1px solid #555;
+	box-shadow:none;
+	text-shadow:none;
+	color:#818380;
+	outline:none;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 .bar-title .title + [class*="button"]:last-child, .bar-title .button + [class*="button"]:last-child, .bar-title .pull-right[class*="button"] {
@@ -223,6 +270,21 @@ body {
 	font-size:165%;
 	text-align:right;
 }
+
+/*.available_balance_wrapper:before {
+    background: none repeat scroll 0 0 #666666;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 10px;
+    margin: 0 -10px;
+    padding: 0 14px;
+    position: absolute;
+    width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}*/
 
 .available_balance_wrapper .icon {
  	display: block;
@@ -438,6 +500,76 @@ body {
 	display:block;
 	margin-top:1px;
 }
+
+/*/////////////////////// LOGIN ////////////////////////*/
+
+body.login_page .content {
+	background:url(../img/night_bg.jpg) center no-repeat !important;
+}
+
+.login_title {
+	width:100%;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+.login_title h2 {
+	font-size:170%;
+	color:#fff;
+	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
+	text-shadow:none;
+}
+
+.login_inputs {
+ 	margin:0 20px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width:auto;
+}
+
+.login_inputs input {
+	height:40px;
+	padding:4px 10px 0 10px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width:100%;
+	background:rgba(0,0,0,0.8);
+	border-radius:8px 8px 0 0;
+	border-bottom:1px solid #000;
+	color:#fe9900;
+	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
+	font-size:150%;
+	box-shadow:none;
+	margin:0;
+	outline:none;
+}
+
+.login_inputs input:last-child {
+	border-radius:0 0 8px 8px;
+	border-bottom:none;
+	border-top:1px solid #384c63;
+}
+
+.login_inputs input::-webkit-input-placeholder {
+	color:#fe9900;
+}
+
+.forgot_password {
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:30px;
+	font-size:130%;
+	color:#fff;
+	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
+	text-shadow:none;
+	text-shadow:1px 1px 2px #000;
+}
+
+
 
 
 

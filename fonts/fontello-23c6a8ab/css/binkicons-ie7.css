@@ -1,0 +1,40 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'binkicons';
+  font-style: normal;
+  font-weight: normal;
+/* fix buttons height */
+  line-height: 1em;
+/* you can be more comfortable with increased icons size */
+/* font-size: 120%; */
+}
+
+.icon-exchange-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x21c4;&nbsp;'); }
+.icon-attention-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x26a0;&nbsp;'); }
+.icon-mail-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2709;&nbsp;'); }
+.icon-info-circled-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe705;&nbsp;'); }
+.icon-address-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe723;&nbsp;'); }
+.icon-basket-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe73d;&nbsp;'); }
+.icon-back-in-time-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe771;&nbsp;'); }
+.icon-network-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe776;&nbsp;'); }
+.icon-list-alt-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe790;&nbsp;'); }
+.icon-traffic-cone-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe7a3;&nbsp;'); }
+.icon-bus-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80b;&nbsp;'); }
+.icon-commerical-building-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe811;&nbsp;'); }
+.icon-fast-food-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe815;&nbsp;'); }
+.icon-fire-station-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe817;&nbsp;'); }
+.icon-fuel-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe819;&nbsp;'); }
+.icon-police-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe82b;&nbsp;'); }
+.icon-restaurant-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe832;&nbsp;'); }
+.icon-school-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe834;&nbsp;'); }
+.icon-tennis-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe839;&nbsp;'); }
+.icon-warehouse-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe840;&nbsp;'); }
+.icon-coffee-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f4;&nbsp;'); }
+.icon-users-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f465;&nbsp;'); }
+.icon-dollar-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f4b5;&nbsp;'); }
+.icon-monitor-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f4bb;&nbsp;'); }
+.icon-briefcase-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f4bc;&nbsp;'); }
+.icon-chart-line-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f4c8;&nbsp;'); }
+.icon-newspaper-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f4f0;&nbsp;'); }
+.icon-mobile-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f4f1;&nbsp;'); }
+.icon-wrench-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f527;&nbsp;'); }

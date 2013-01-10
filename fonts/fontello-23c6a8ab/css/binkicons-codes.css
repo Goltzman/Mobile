@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+.icon-exchange-b:before { content: '\21c4'; } /* '⇄' */
+.icon-attention-b:before { content: '\26a0'; } /* '⚠' */
+.icon-mail-b:before { content: '\2709'; } /* '✉' */
+.icon-info-circled-b:before { content: '\e705'; } /* '' */
+.icon-address-b:before { content: '\e723'; } /* '' */
+.icon-basket-b:before { content: '\e73d'; } /* '' */
+.icon-back-in-time-b:before { content: '\e771'; } /* '' */
+.icon-network-b:before { content: '\e776'; } /* '' */
+.icon-list-alt-b:before { content: '\e790'; } /* '' */
+.icon-traffic-cone-b:before { content: '\e7a3'; } /* '' */
+.icon-bus-b:before { content: '\e80b'; } /* '' */
+.icon-commerical-building-b:before { content: '\e811'; } /* '' */
+.icon-fast-food-b:before { content: '\e815'; } /* '' */
+.icon-fire-station-b:before { content: '\e817'; } /* '' */
+.icon-fuel-b:before { content: '\e819'; } /* '' */
+.icon-police-b:before { content: '\e82b'; } /* '' */
+.icon-restaurant-b:before { content: '\e832'; } /* '' */
+.icon-school-b:before { content: '\e834'; } /* '' */
+.icon-tennis-b:before { content: '\e839'; } /* '' */
+.icon-warehouse-b:before { content: '\e840'; } /* '' */
+.icon-coffee-b:before { content: '\f0f4'; } /* '' */
+.icon-users-b:before { content: '👥'; } /* '\1f465' */
+.icon-dollar-b:before { content: '💵'; } /* '\1f4b5' */
+.icon-monitor-b:before { content: '💻'; } /* '\1f4bb' */
+.icon-briefcase-b:before { content: '💼'; } /* '\1f4bc' */
+.icon-chart-line-b:before { content: '📈'; } /* '\1f4c8' */
+.icon-newspaper-b:before { content: '📰'; } /* '\1f4f0' */
+.icon-mobile-b:before { content: '📱'; } /* '\1f4f1' */
+.icon-wrench-b:before { content: '🔧'; } /* '\1f527' */

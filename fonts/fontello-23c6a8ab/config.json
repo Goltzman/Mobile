@@ -1,0 +1,374 @@
+{
+  "name": "binkicons",
+  "glyphs": [
+    {
+      "search": [
+        "arrow",
+        "exchange",
+        "transfer"
+      ],
+      "code": 8644,
+      "uid": "e07df3e5b9ae72836b7804f38f0644a9",
+      "file": "transfer",
+      "css": "exchange-b",
+      "orig_css": "exchange",
+      "orig_code": 8644,
+      "src": "iconic",
+      "from": 8644
+    },
+    {
+      "search": [
+        "attention",
+        "warning",
+        "alert"
+      ],
+      "code": 9888,
+      "from": 9888,
+      "uid": "f47srtt9pew19q6kg9jniwtzsb8q1rhy",
+      "css": "attention-b",
+      "orig_css": "attention",
+      "orig_code": 9888,
+      "src": "modernpics"
+    },
+    {
+      "search": [
+        "mail",
+        "email"
+      ],
+      "code": 9993,
+      "from": 9993,
+      "uid": "ae3so8q0b0n2h8esv9flua2nmwswa8fd",
+      "css": "mail-b",
+      "orig_css": "mail",
+      "orig_code": 9993,
+      "src": "modernpics"
+    },
+    {
+      "search": [
+        "info"
+      ],
+      "code": 59141,
+      "uid": "7e4164950ffa4990961958b2d6318658",
+      "css": "info-circled-b",
+      "orig_css": "info-circled",
+      "orig_code": 59141,
+      "src": "entypo",
+      "from": 59141
+    },
+    {
+      "search": [
+        "address"
+      ],
+      "code": 59171,
+      "uid": "540b6a4262be769515c79700618b4aea",
+      "css": "address-b",
+      "orig_css": "address",
+      "orig_code": 59171,
+      "src": "entypo",
+      "from": 59171
+    },
+    {
+      "search": [
+        "basket",
+        "shopping",
+        "cart"
+      ],
+      "code": 59197,
+      "uid": "e126987944593dfee041f8e2a68145db",
+      "css": "basket-b",
+      "orig_css": "basket",
+      "orig_code": 59197,
+      "src": "entypo",
+      "from": 59197
+    },
+    {
+      "search": [
+        "back",
+        "time"
+      ],
+      "code": 59249,
+      "uid": "89eb512cb82a1c3fe83cb16134f9876c",
+      "css": "back-in-time-b",
+      "orig_css": "back-in-time",
+      "orig_code": 59249,
+      "src": "entypo",
+      "from": 59249
+    },
+    {
+      "search": [
+        "net"
+      ],
+      "code": 59254,
+      "uid": "414fe97e4af5215a06d29be0f2cecdf5",
+      "css": "network-b",
+      "orig_css": "network",
+      "orig_code": 59254,
+      "src": "entypo",
+      "from": 59254
+    },
+    {
+      "search": [
+        "list"
+      ],
+      "code": 59280,
+      "from": 59280,
+      "uid": "c819c6225685bae2eed1b8da13e629fa",
+      "css": "list-alt-b",
+      "orig_css": "list-alt",
+      "orig_code": 59280,
+      "src": "fontawesome"
+    },
+    {
+      "search": [],
+      "code": 59299,
+      "from": 59299,
+      "uid": "2bbde1076919db3d1dcc7f6b43d19bd4",
+      "css": "traffic-cone-b",
+      "orig_css": "traffic-cone",
+      "orig_code": 59299,
+      "src": "entypo"
+    },
+    {
+      "search": [
+        "bus"
+      ],
+      "code": 59403,
+      "uid": "2b39f74a074e338a67270567e95142cb",
+      "css": "bus-b",
+      "orig_css": "bus",
+      "orig_code": 59403,
+      "src": "maki",
+      "from": 59403
+    },
+    {
+      "search": [
+        "building"
+      ],
+      "code": 59409,
+      "uid": "fc455b9530e0b37facc289f42a120fdd",
+      "css": "commerical-building-b",
+      "orig_css": "commerical-building",
+      "orig_code": 59409,
+      "src": "maki",
+      "from": 59409
+    },
+    {
+      "search": [
+        "fastfood",
+        "hamburger"
+      ],
+      "code": 59413,
+      "uid": "d27bcf5c8638e4078aaadae1d49b6909",
+      "css": "fast-food-b",
+      "orig_css": "fast-food",
+      "orig_code": 59413,
+      "src": "maki",
+      "from": 59413
+    },
+    {
+      "search": [
+        "fire station"
+      ],
+      "code": 59415,
+      "uid": "a9d3392264236bb9fe4d60a130c662d1",
+      "css": "fire-station-b",
+      "orig_css": "fire-station",
+      "orig_code": 59415,
+      "src": "maki",
+      "from": 59415
+    },
+    {
+      "search": [
+        "fuel"
+      ],
+      "code": 59417,
+      "uid": "63af7ffdab0d3546333634c63554bb82",
+      "css": "fuel-b",
+      "orig_css": "fuel",
+      "orig_code": 59417,
+      "src": "maki",
+      "from": 59417
+    },
+    {
+      "search": [
+        "police"
+      ],
+      "code": 59435,
+      "uid": "2e7c67db76849147d16a6763d07a03a9",
+      "css": "police-b",
+      "orig_css": "police",
+      "orig_code": 59435,
+      "src": "maki",
+      "from": 59435
+    },
+    {
+      "search": [
+        "restaurant"
+      ],
+      "code": 59442,
+      "uid": "5cc58545bb38c912940470480d3df145",
+      "css": "restaurant-b",
+      "orig_css": "restaurant",
+      "orig_code": 59442,
+      "src": "maki",
+      "from": 59442
+    },
+    {
+      "search": [
+        "school"
+      ],
+      "code": 59444,
+      "uid": "653750436fc99eeb29ccd487e6a5bfa6",
+      "css": "school-b",
+      "orig_css": "school",
+      "orig_code": 59444,
+      "src": "maki",
+      "from": 59444
+    },
+    {
+      "search": [
+        "tennis"
+      ],
+      "code": 59449,
+      "uid": "8a4eb4f98d8e0f3686a741c952b03c08",
+      "css": "tennis-b",
+      "orig_css": "tennis",
+      "orig_code": 59449,
+      "src": "maki",
+      "from": 59449
+    },
+    {
+      "search": [
+        "warehouse"
+      ],
+      "code": 59456,
+      "uid": "bc6ef9c6531c54e927e9dc18e45524b2",
+      "css": "warehouse-b",
+      "orig_css": "warehouse",
+      "orig_code": 59456,
+      "src": "maki",
+      "from": 59456
+    },
+    {
+      "search": [
+        "coffee",
+        "cup"
+      ],
+      "code": 61684,
+      "uid": "3a26448b711645ba1abfc86c1a6e2f30",
+      "css": "coffee-b",
+      "orig_css": "coffee",
+      "orig_code": 61684,
+      "src": "fontawesome",
+      "from": 61684
+    },
+    {
+      "search": [
+        "users",
+        "contacts",
+        "friends"
+      ],
+      "code": 128101,
+      "uid": "ecf8edb95c3f45eb433b4cce7ba9f740",
+      "css": "users-b",
+      "orig_css": "users",
+      "orig_code": 128101,
+      "src": "entypo",
+      "from": 128101
+    },
+    {
+      "search": [
+        "money",
+        "dollar"
+      ],
+      "code": 128181,
+      "from": 128181,
+      "uid": "fhpup8jff2yw9kmuwavhyqxogczcbbhj",
+      "css": "dollar-b",
+      "orig_css": "dollar",
+      "orig_code": 128181,
+      "src": "modernpics"
+    },
+    {
+      "search": [
+        "tv",
+        "screen",
+        "monitor"
+      ],
+      "code": 128187,
+      "uid": "b7a336095aa4535c3689cb557edf23db",
+      "css": "monitor-b",
+      "orig_css": "monitor",
+      "orig_code": 128187,
+      "src": "entypo",
+      "from": 128187
+    },
+    {
+      "search": [
+        "briefcase"
+      ],
+      "code": 128188,
+      "from": 128188,
+      "uid": "053b757d97042e1c94276200c7b64b91",
+      "css": "briefcase-b",
+      "orig_css": "briefcase",
+      "orig_code": 128188,
+      "src": "fontawesome"
+    },
+    {
+      "search": [
+        "chart",
+        "graph",
+        "line",
+        "diagram"
+      ],
+      "code": 128200,
+      "uid": "7184d8171b6a9b18eabbace94cca21db",
+      "css": "chart-line-b",
+      "orig_css": "chart-line",
+      "orig_code": 128200,
+      "src": "entypo",
+      "from": 128200
+    },
+    {
+      "search": [
+        "newspaper",
+        "article"
+      ],
+      "code": 128240,
+      "uid": "da0fd38d651815e3a12f6c030ff1fe5b",
+      "css": "newspaper-b",
+      "orig_css": "newspaper",
+      "orig_code": 128240,
+      "src": "entypo",
+      "from": 128240
+    },
+    {
+      "search": [
+        "mobile",
+        "iphone"
+      ],
+      "code": 128241,
+      "from": 128241,
+      "uid": "m3m8301t2xdy30x4lp7txm0vztl67tcl",
+      "css": "mobile-b",
+      "orig_css": "mobile",
+      "orig_code": 128241,
+      "src": "modernpics"
+    },
+    {
+      "search": [
+        "wrench",
+        "tools",
+        "settings"
+      ],
+      "code": 128295,
+      "from": 128295,
+      "uid": "5bb103cd29de77e0e06a52638527b575",
+      "css": "wrench-b",
+      "orig_css": "wrench",
+      "orig_code": 128295,
+      "src": "fontawesome"
+    }
+  ]
+}
