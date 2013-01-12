@@ -7,8 +7,76 @@ body {
 	padding:0 !important;
 	direction:rtl;
 	font-family:Arial, Helvetica, sans-serif;
-	background:
+	font-size: inherit;
 }
+
+a {
+	text-decoration:none;
+}
+
+
+form {
+    margin: 0;
+}
+
+/*////////////////////////////////////// ON OFF ////////////////////////////////////////////*/
+    .onoffswitch {
+    position: relative; width: 55px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+	margin-top:2px;
+    }
+    .onoffswitch-checkbox {
+    display: none;
+    }
+    .onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border-radius: 20px;height: 25px;
+	box-shadow:1px 1px 2px rgba(0,0,0,0.5) inset;
+	margin-bottom:0;
+    }
+    .onoffswitch-inner {
+    width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.1s; -webkit-transition: margin 0.1s;
+    -o-transition: margin 0.1s; transition:margin 0.1s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+    float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	border-radius:20px;
+	box-shadow:1px 1px 2px rgba(0,0,0,0.5) inset;
+    }
+    .onoffswitch-inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #FF9900; color: #CCCCCC;
+    }
+    .onoffswitch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #CCCCCC; color: #999999;
+    text-align: right;
+    }
+    .onoffswitch-switch {
+    width: 28px; margin: -4.5px 0.5px 0;
+    background: url(../img/switch_bg.jpg) center no-repeat;
+    position: absolute; top: 0; bottom: 0; right: 26px;
+	border-radius:20px;
+    -moz-transition: all 0.1s ; -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s ; transition: all 0.1s ;
+	margin-bottom:0;
+	box-shadow:0 0 1px #FFF inset, -2px 2px 1px rgba(0,0,0,0.4);
+	border:1px solid #CCC;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+    }
+/*////////////////////////////////////// ON OFF ////////////////////////////////////////////*/
+
+
 
 .left {
 	float:left;
@@ -26,8 +94,116 @@ body {
 	top:49px;
 }
 
+[class*="button"] {
+  position: relative;
+  display: inline-block;
+  padding: 4px 12px;
+  line-height: 18px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.bar-title {
+  top: 0;
+  display: -webkit-box;
+  display: box;
+  background-color: #1eb0e9;
+  background-image: -webkit-linear-gradient(top, #1eb0e9 0, #109adc 100%);
+  background-image: linear-gradient(to bottom, #1eb0e9 0, #109adc 100%);
+  border-bottom: 1px solid #0e5895;
+  box-shadow: inset 0 1px 1px -1px rgba(255, 255, 255, .8);
+  -webkit-box-orient: horizontal;
+          box-orient: horizontal;
+}
+
+.bar-title .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 44px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 -1px rgba(0, 0, 0, .5);
+  white-space: nowrap;
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  background: #fff;
+  -webkit-transition-property: top, bottom;
+          transition-property: top, bottom;
+  -webkit-transition-duration: .2s, .2s;  
+          transition-duration: .2s, .2s;  
+  -webkit-transition-timing-function: linear, linear;
+          transition-timing-function: linear, linear;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Remove usual bullet styles from list */
+.list {
+  margin-bottom: 10px;
+  list-style: none;
+  background-color: #fff;
+}
+
+/* Pad each list item and add dividers */
+.list li {
+  position: relative;
+  padding: 20px 60px 20px 10px; /* Given extra right padding to accomodate counts, chevrons or buttons */
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+/* Give top border to first list items */
+.list li:first-child {
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+/* If a list of links, make sure the child <a> takes up full list item tap area (want to avoid selecting child buttons though) */
+.list li > a:not([class*="button"]) {
+  position: relative;
+  display: block;
+  padding: inherit;
+  margin: -20px -60px -20px -10px;
+  color: inherit;
+}
+
+/* Inset list
+-------------------------------------------------- */
+
+.list.inset {
+  width: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Remove border from first/last standard list items to avoid double border at top/bottom of lists */
+.list.inset li:first-child {
+  border-top-width: 0;
+}
+.list.inset li:last-child {
+  border-bottom-width: 0;
+}
+
+
 .list li {
 	padding: 20px 10px 20px 10px;
+	box-shadow:0 1px 0 #fff;
+}
+
+.list li:last-child {
+	box-shadow:none;
 }
 
 .nis, .usd
@@ -180,10 +356,14 @@ body {
 	height:50px;
 	background: url(../img/m_header_2_bg.jpg) bottom repeat-x;
 	box-shadow:0 1px 4px #000000;
-	border-color:#666;
+	border-bottom:1px solid #555;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	padding:5px;
+	z-index:901;
+	  position: fixed;
+    width: 100%;
 }
 
 #header .button {
@@ -213,6 +393,7 @@ body {
 	font-size:150%;
 	color:#fff;
 	line-height:40px;
+	margin:0;
 }
 
 #search_bar {
@@ -227,6 +408,7 @@ body {
 	box-shadow:0 1px 4px #000000;
 	top:50px;
 	right:0;
+	z-index:900;
 }
 
 #search_bar input {
@@ -569,7 +751,50 @@ body.login_page .content {
 	text-shadow:1px 1px 2px #000;
 }
 
+/*/////////////////// SETTINGS /////////////////////*/
+
+.settings_list.list.inset {
+	margin-top:18px;
+	border-radius:5px;
+	background:#fff;
+	box-shadow: 0 0 40px rgba(0,0,0,0.15) inset, 0 1px 3px rgba(0,0,0,0.1);
+	border:1px solid #b1b1b1;
+}
 
 
+.settings_list.list.inset li {
+	border-radius:0;
+	padding:10px;
+	height:50px;
+	border-bottom:1px solid #b1b1b1;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
 
+.settings_list.list.inset li label.text {
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	color:#000;
+	text-align:right;
+	font-size:120%;
+	font-family:'Oron W26 Black', Helvetica, Arial, sans-serif;
+	width:40%;
+}
+
+.settings_list.list.inset li input[type="text"] {
+	display:inline-block;
+	height:30px;
+	padding:0;
+	background:none;
+	border:none;
+	margin:0;
+	color:#0088cc;
+	font-size:120%;
+	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
+	box-shadow:none;
+	border-radius:none;
+	width:60%;
+}
 
