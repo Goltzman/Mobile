@@ -31,19 +31,6 @@
 </head>
 
 <body>
-<!--
-<div id="menu">
-	<h3>Menu</h3>
-    <ul>
-        <li class="active"><a href="#home" class="contentLink">Home </a></li>
-        <li><a href="#home" class="contentLink">About </a></li>
-        <li><a href="#home" class="contentLink">Portfolio </a></li>
-        <li><a href="#home" class="contentLink">Contact </a></li>
-    </ul>
-</div>
--->
-
-	<!--<div data-role="page" class="pages" id="home">-->
     
    <header class="bar-title" id="header">
         	<h2>הגדרות</h2>    
@@ -51,8 +38,8 @@
         	</a>	
     </header><!--header-->
     
-    <div class="content">
-        
+    <div class="content settings">
+        <h2 class="settings_title">פרטים אישיים</h2>
         <ul class="list inset settings_list" title="מסומנות">
             <form>
             	<li class="row-fluid">
@@ -75,39 +62,83 @@
  
 			</form>
         </ul>
-        
-        <ul class="list inset settings_list" title="מסומנות">
+        <h2 class="settings_title">כרטיסי אשראי ובנקים</h2>
+        <ul class="list inset settings_list">
             <form>
             	<li class="row-fluid">
-                    <label class="right text">
-                    <img src="img/visa_smpl.jpg"/>
-                    ויזה
+ 					<label class="right text">
+                        <span class="right bank_logo">
+                           <img src="img/visa_smpl.jpg"/>
+                         </span>
+                         <span class="right">
+                           1234
+                         </span>
+                        <span class="icon-asterisk right"></span>
                     </label>
-                        <div class="onoffswitch left">
-                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-                            <label class="onoffswitch-label" for="myonoffswitch">
-                                <div class="onoffswitch-inner"></div>
-                                <div class="onoffswitch-switch"></div>
-                        	</label>
-                        </div> 
+                    <div style="width:60%;" class="right">
+                        <div class="input_wrapper">
+                            <input type="text" class="bank_name" value="שם כלשהו"/>
+                            </div>
+                            <div class="onoffswitch left margin">
+                                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch2" checked>
+                                    <label class="onoffswitch-label" for="myonoffswitch2">
+                                        <div class="onoffswitch-inner"></div>
+                                        <div class="onoffswitch-switch"></div>
+                                    </label>
+                             </div><!--onoffswitch-->
+                    </div>
                 </li>
             	<li class="row-fluid">
-                    <label class="right text">
-                    <img src="img/visa_smpl.jpg"/>
-                    פועלים
+        				<label class="right text">
+                        <span class="right bank_logo">
+                           <img src="img/visa_smpl.jpg"/>
+                         </span>
+                         <span class="right">
+                           1234
+                         </span>
+                        <span class="icon-asterisk right"></span>
                     </label>
-                    <div class="onoffswitch left">
-                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-                            <label class="onoffswitch-label" for="myonoffswitch">
-                                <div class="onoffswitch-inner"></div>
-                                <div class="onoffswitch-switch"></div>
-                        	</label>
-                        </div> 
+                    <div style="width:60%;" class="right">
+                        <div class="input_wrapper">
+                            <input type="text" class="bank_name" value="ויזה"/>
+                            </div>
+                            <div class="onoffswitch left margin">
+                                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch3" checked>
+                                    <label class="onoffswitch-label" for="myonoffswitch3">
+                                        <div class="onoffswitch-inner"></div>
+                                        <div class="onoffswitch-switch"></div>
+                                    </label>
+                             </div><!--onoffswitch-->
+                    </div>
                 </li>
-
-    
- 
 			</form>
+        </ul>
+        <h2 class="settings_title">אבטחה והתראות</h2>
+        <ul class="list inset settings_list security">
+        	<li>
+            	<label class="right text">קוד כניסה</label>	
+                <div class="onoffswitch left">
+                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch4" checked>
+                    <label class="onoffswitch-label" for="myonoffswitch4">
+                        <div class="onoffswitch-inner"></div>
+                        <div class="onoffswitch-switch"></div>
+                    </label>
+                </div><!--onoffswitch-->                
+            </li>
+            <li>
+                    <label class="right text" style="color: #0088CC;">עדכן סיסמה</label>	
+                    <span class="icon-key left"></span>               
+             </li>
+             <li>
+            	<label class="right text">התראות מערכת</label>	
+                <div class="onoffswitch left">
+                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch5" checked>
+                    <label class="onoffswitch-label" for="myonoffswitch5">
+                        <div class="onoffswitch-inner"></div>
+                        <div class="onoffswitch-switch"></div>
+                    </label>
+                </div><!--onoffswitch-->                
+            </li>     
         </ul>
 
 
