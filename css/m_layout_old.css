@@ -33,7 +33,7 @@ form {
 	
 	.onoffswitch.margin {
 	margin-top:-27px;
-	}
+	0}
 	
     .onoffswitch-checkbox {
     display: none;
@@ -70,7 +70,7 @@ form {
     }
     .onoffswitch-switch {
     width: 28px; margin: -4.5px 0.5px 0;
-    background: url(../../images/mobile/switch_bg.jpg) center no-repeat;
+    background: url(../img/switch_bg.jpg) center no-repeat;
     position: absolute; top: 0; bottom: 0; right: 26px;
 	border-radius:20px;
     -moz-transition: all 0.1s ; -webkit-transition: all 0.1s;
@@ -128,7 +128,6 @@ form {
 }
 
 .bar-title .title {
-  margin: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -245,31 +244,31 @@ form {
 	color:#000;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
 	border-radius:6px;
-	background:url(../../images/mobile/big_btn_bg.jpg) 0 0 repeat-x;
+	background:url(../img/big_btn_bg.jpg) 0 0 repeat-x;
 	box-shadow:0 1px 2px #000;
 }
 
 .big_btn:active {
-	background:url(../../images/mobile/big_btn_bg.jpg) 0 -40px repeat-x;
+	background:url(../img/big_btn_bg.jpg) 0 -40px repeat-x;
 	box-shadow:none;
 }
 
 .big_btn.blue {
-	background:url(../../images/mobile/big_btn_blue_bg.jpg) repeat-x;
+	background:url(../img/big_btn_blue_bg.jpg) repeat-x;
 }
 
 .big_btn.blue:active {
-	background:url(../../images/mobile/big_btn_blue_bg.jpg) 0 -40px repeat-x;
+	background:url(../img/big_btn_blue_bg.jpg) 0 -40px repeat-x;
 	box-shadow:none;
 }
 
 .big_btn.yellow {
-	background:url(../../images/mobile/big_btn_yellow_bg.jpg) repeat-x;
+	background:url(../img/big_btn_yellow_bg.jpg) repeat-x;
 	margin-bottom:20px;
 }
 
 .big_btn.yellow:active {
-	background:url(../../images/mobile/big_btn_yellow_bg.jpg) 0 -40px repeat-x;
+	background:url(../img/big_btn_yellow_bg.jpg) 0 -40px repeat-x;
 	box-shadow:none;
 }
 
@@ -286,7 +285,7 @@ form {
     padding: 0 10px 0 6px;
 
     background-repeat:repeat-x;
-    background-image:url(../../images/mobile/m_header_btn_bg.jpg) ;
+    background-image:url(../img/m_header_btn_bg.jpg) ;
 
     border-radius: 5px;
 
@@ -316,7 +315,7 @@ form {
     z-index : 1;
 
     background-repeat:repeat-x;
-    background-image : url(../../images/mobile/m_header_btn_bg_45.jpg);
+    background-image : url(../img/m_header_btn_bg_45.jpg);
 	background-position: -60px center;
 
     -moz-transform : rotateZ(-45deg) skewY(-10deg) skewX(-10deg);
@@ -352,7 +351,7 @@ form {
     background-repeat:repeat-x;
     box-shadow :0 -3px 1px -2px rgba(0,0,0,0.3)inset,
                 0 4px 2px -3px rgba(0,0,0,0.8)inset;
-    background-image : url(../../images/mobile/m_header_btn_bg.jpg);
+    background-image : url(../img/m_header_btn_bg.jpg);
 }
 
 #ios-arrow-left:hover,
@@ -366,7 +365,7 @@ form {
 
 #header {
 	height:50px;
-	background: url(../../images/mobile/m_header_2_bg.jpg) bottom repeat-x;
+	background: url(../img/m_header_2_bg.jpg) bottom repeat-x;
 	box-shadow:0 1px 4px #000000;
 	border-bottom:1px solid #555;
 	-moz-box-sizing: border-box;
@@ -381,7 +380,7 @@ form {
 #header .button {
 	border: none;
 	border-radius: 4px;
-	background: url(../../images/mobile/m_header_btn_bg.jpg) 0 0 repeat-x;
+	background: url(../img/m_header_btn_bg.jpg) 0 0 repeat-x;
 	box-shadow: 0 1px 2px rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.7) inset, inset 0 0 4px rgba(0, 0, 0, 0.1);
 	color: white;
 	line-height: 32px;
@@ -397,7 +396,7 @@ form {
 }
 
 #header .button:active {
-	background: url(../../images/mobile/m_header_btn_bg.jpg) 0 -34px repeat-x;
+	background: url(../img/m_header_btn_bg.jpg) 0 -34px repeat-x;
 }
 #header h2 {
 	display:inline-block;
@@ -416,7 +415,7 @@ form {
 	-webkit-box-sizing: border-box;
 	padding:8px;
 	height:50px;
-	background:url(../../images/mobile/search_bar_bg.jpg) repeat;
+	background:url(../img/search_bar_bg.jpg) repeat;
 	box-shadow:0 1px 4px #000000;
 	top:50px;
 	right:0;
@@ -450,11 +449,11 @@ form {
 }
 
 .content {
-	background:url(../../images/mobile/main_body_bg.jpg) repeat;
+	background:url(../img/main_body_bg.jpg) repeat;
 }
 
 .available_balance_wrapper {
-	background:url(../../images/mobile/orange_noise_bg.jpg) repeat;
+	background:url(../img/orange_noise_bg.jpg) repeat;
 	border-right:1px solid #6a6a6a;
 	border-left:1px solid #6a6a6a;
 	border-bottom:1px solid #6a6a6a;
@@ -467,7 +466,7 @@ form {
 }
 
 .available_balance_wrapper:before {
-    background: url(../../images/mobile/balance_bottom_left.jpg) left no-repeat, url(../../images/mobile/balance_bottom_right.jpg) right no-repeat, url(../../images/mobile/balance_bottom_center.jpg) repeat-x #fff;
+    background: url(../img/balance_bottom_left.jpg) left no-repeat, url(../img/balance_bottom_right.jpg) right no-repeat, url(../img/balance_bottom_center.jpg) repeat-x #fff;
     bottom: 0;
     content: "";
     display: block;
@@ -562,7 +561,7 @@ form {
 	display:block;
 	width:60px;
 	height:60px;
-	background:url(../../images/mobile/pic_glare_60px.png) no-repeat;
+	background:url(../img/pic_glare_60px.png) no-repeat;
 	top:6px;
 	right:6px;
 	position:absolute;
@@ -601,7 +600,6 @@ form {
 	overflow:hidden;
 	white-space:nowrap;
 	margin-top:-60px;
-    direction:ltr;
 }
 
 .feed_list.list.inset li.marked:after {
@@ -730,14 +728,11 @@ form {
     padding:0 6px;
 	list-style:none;
 	box-shadow:0 2px 4px rgba(0,0,0,0.2) inset;
-}
-
-.accordion-body.collapse.balance_sub_list {
-	display:none;
-}
-
-.accordion-body.collapse.balance_sub_list.in {
-	display:block;
+	-webkit-transition: all 50ms linear;
+	-moz-transition: all 50ms linear;
+	-ms-transition: all 50ms linear;
+	-o-transition: all 50ms linear;
+	transition: all 50ms linear;
 }
 
 .feed_list.list.inset.balance li.balance_line .balance_sub_list li {
@@ -802,6 +797,7 @@ form {
 	margin-right:-6px;
 	background:#fff;
 	width:100%;
+	overflow:hidden !important;
 }
 
 .balance_sub_list li .basic_title {
@@ -981,7 +977,7 @@ form {
 .trans_tags li {
 	display:inline-block;
 	float:right;
-	background:url(../../images/mobile/trans_tags_bg.jpg) no-repeat right top #ff9900;
+	background:url(../img/trans_tags_bg.jpg) no-repeat right top #ff9900;
 	border-radius:4px 0 0 4px;
 	padding:0 20px 0 10px;
 	height:25px;
@@ -994,7 +990,7 @@ form {
 }
 
 .trans_tags li:last-child {
-	background:url(../../images/mobile/trans_add_tags_bg.jpg) no-repeat right top #999;
+	background:url(../img/trans_add_tags_bg.jpg) no-repeat right top #999;
 }
  
 .trans_tags li .icon-plus {
@@ -1005,7 +1001,7 @@ form {
 /*/////////////////////// LOGIN ////////////////////////*/
 
 body.login_page .content {
-	background:url(../../images/mobile/night_bg.jpg) center no-repeat !important;
+	background:url(../img/night_bg.jpg) center no-repeat !important;
 }
 
 .login_title {
@@ -1127,7 +1123,7 @@ input.PIN_input {
 	font-size:30px;
 	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
 	text-align:center;
-	line-height:68px;
+	line-height:
 }
 
 .change_pass_input input.PIN_input:-moz-placeholder {
@@ -1135,13 +1131,12 @@ input.PIN_input {
 	font-size:30px;
 	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
 	text-align:center;
-    line-height:68px;
 }
 
 
 /*/////////////////// SETTINGS /////////////////////*/
 .content.settings {
-		background: url(../../images/mobile/settings_bg.png) bottom right fixed no-repeat, url(../../images/mobile/main_body_bg.jpg) repeat;
+		background: url(../img/settings_bg.png) bottom right fixed no-repeat, url(../img/main_body_bg.jpg) repeat;
 }
 h2.settings_title {
 	display:block;
@@ -1206,7 +1201,7 @@ h2.settings_title {
 	font-size:120%;
 	font-family:'Oron W26 Medium', Helvetica, Arial, sans-serif;
 	box-shadow:none;
-	border-radius:0;
+	border-radius:none;
 	width:60%;
 }
 
@@ -1247,7 +1242,7 @@ h2.settings_title {
 	-webkit-box-sizing: border-box;
 	margin:15px;
 	width:auto;
-	background:url(../../images/mobile/splash_logo.png) no-repeat;
+	background:url(../img/splash_logo.png) no-repeat;
 	height:150px;
 }
 
@@ -1275,14 +1270,14 @@ h2.settings_title {
 }
 
 .content.info {
-	background:url(../../images/mobile/info_bg.png) right bottom fixed no-repeat, url(../../images/mobile/main_body_bg.jpg) repeat;
+	background:url(../img/info_bg.png) right bottom fixed no-repeat, url(../img/main_body_bg.jpg) repeat;
 }
 
 /*///////////////////////// MENU ///////////////////////////////*/
 #menu {
 	width:250px;
 	height:100%;
-	background: url(../../images/mobile/menu_bg.jpg) repeat #333;
+	background: url(../img/menu_bg.jpg) repeat #333;
 }
 
 #menu ul {
