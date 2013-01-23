@@ -501,20 +501,32 @@ form {
 /*////////////////////// FEED ///////////////////////////*/
 
 .feed_list.list.inset {
-	margin-top:18px;
 	border-radius:0;
 	background:#fff;
 	box-shadow: 0 0 40px rgba(0,0,0,0.15) inset, 0 1px 3px rgba(0,0,0,0.1);
-	border:1px solid #b1b1b1;
 }
 
+.feed_list.list.inset li {
+	border-radius:0;
+	padding:6px;
+	height:60px;
+	border-right:1px solid #b1b1b1;
+	border-left:1px solid #b1b1b1;
+	border-bottom:1px solid #b1b1b1;
+	margin-right:-1px;
+}
 
-.feed_list.list.inset:before {
+.feed_list.list.inset li.top {
+	border-top:1px solid #b1b1b1;
+	margin-top:18px;
+}
+
+.feed_list.list.inset li.top:before {
 	content:attr(title);
 	width:100px;
 	background:#b4b5b9;
 	height:15px;
-	line-height:14px;
+	line-height:12px;
 	text-align:center;
 	color:#fff;
 	font-family:Arial, Helvetica, sans-serif;
@@ -523,21 +535,12 @@ form {
 	display:block;
 	margin-top:-8px;
 	border:none;
-	margin-top: -8px;
+	margin-top: -14px;
 	margin-right:-50px;
 	right:50%;
 	position:absolute;	
-}
-
-.feed_list.list.inset li {
-	border-radius:0;
-	padding:6px;
-	height:60px;
-	border-bottom:1px solid #b1b1b1;
-}
-
-.feed_list.list.inset li:last-child {
-	border-bottom:0;
+	font-size:13px;
+	font-weight:bold;
 }
 
 .feed_list.list.inset li .trans_logo {
@@ -546,6 +549,11 @@ form {
 	display:inline-block;
 	overflow:hidden;
 	margin-top:-60px;
+}
+
+.feed_list.list.inset li .trans_logo img {
+	width:60px;
+	height:60px;
 }
 
 .feed_list.list.inset li .trans_logo:after {
@@ -607,6 +615,11 @@ form {
 	top:0;
 }
 /*/////////////////////// BALANCE /////////////////////////////*/
+
+.feed_list.list.inset.balance {
+	margin-top:10px;
+	border-top: 1px solid #B1B1B1;
+}
 
 .feed_list.list.inset.balance:before {
 	display:none;
@@ -868,11 +881,16 @@ form {
 	font-weight:bold;
 	height:30px;
 	line-height:30px;
-	margin-top:-10px;
+	margin-top:-11px;
 	box-shadow:0 1px 3px rgba(0,0,0,0.2) inset, 0 1px 3px rgba(0,0,0,0.1);
 }
 
 /*////////////////////// TRANSACTION ///////////////////////////*/
+
+.feed_list.list.inset.trans {
+	margin-top:10px;
+	border-top: 1px solid #B1B1B1;
+}
 
 .feed_list.list.inset.trans:before {
 	display:none;
@@ -888,7 +906,7 @@ form {
 
 
 .list.inset.trans_details {
-	margin-top:-10px;
+	margin-top:-11px;
 	border-radius:0;
 	background:#fff;
 	box-shadow: 0 0 40px rgba(0,0,0,0.1) inset, 0 1px 3px rgba(0,0,0,0.1);
