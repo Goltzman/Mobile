@@ -715,14 +715,11 @@ form {
     padding:0 6px;
 	list-style:none;
 	box-shadow:0 2px 4px rgba(0,0,0,0.2) inset;
-}
-
-.accordion-body.collapse.balance_sub_list {
-	display:none;
-}
-
-.accordion-body.collapse.balance_sub_list.in {
-	display:block;
+	-webkit-transition: all 50ms linear;
+	-moz-transition: all 50ms linear;
+	-ms-transition: all 50ms linear;
+	-o-transition: all 50ms linear;
+	transition: all 50ms linear;
 }
 
 .feed_list.list.inset.balance li.balance_line .balance_sub_list li {
@@ -787,6 +784,7 @@ form {
 	margin-right:-6px;
 	background:#fff;
 	width:100%;
+	overflow:hidden !important;
 }
 
 .balance_sub_list li .basic_title {
