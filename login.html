@@ -13,7 +13,7 @@
 <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.rtl.css"/>
 <link type="text/css" rel="stylesheet" href="css/fonts.css"/>
 <link href="less/font-awesome.less" rel="stylesheet" type="text/less" />
-<link href="css/m_layout.css" rel="stylesheet" type="text/css" />
+<link href="css/layout/m_layout.css" rel="stylesheet" type="text/css" />
 
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/touch-icons/apple-touch-icon-114x114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/touch-icons/apple-touch-icon-72x72.png" />
@@ -56,14 +56,16 @@
     	<div class="login_title">
         	<h2>כניסה למערכת:</h2>
         </div><!--login_title-->
-    	<div class="login_inputs">
-        	<input type="text" placeholder="שם משתמש"/>
-            <input type="text" placeholder="סיסמה"/>
-        </div><!--login_inputs-->
-        <div class="forgot_password">
-        	שכחת סיסמה?
-        </div><!--forgot_password-->
-        <div class="big_btn yellow">אישור</div>
+        <form class="login_form">
+            <div class="login_inputs">
+                <input type="text" placeholder="שם משתמש"/>
+                <input type="text" placeholder="סיסמה"/>
+            </div><!--login_inputs-->
+            <div class="forgot_password">
+                שכחת סיסמה?
+            </div><!--forgot_password-->
+            <input class="big_btn yellow" type="submit" value="אישור">
+        </form>
         <div class="big_btn">בקש הזמנה</div>
         <div class="forgot_password">
         	כאן אמור להיות משפט כלשהו

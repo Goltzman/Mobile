@@ -151,18 +151,16 @@ form {
   left: 0;
   overflow: auto;
   background: #fff;
-  -webkit-transition-property: top, bottom;
-          transition-property: top, bottom;
-  -webkit-transition-duration: .2s, .2s;  
-          transition-duration: .2s, .2s;  
-  -webkit-transition-timing-function: ease-out, ease-out;
-          transition-timing-function: ease-out, ease-out;
-  -webkit-overflow-scrolling: touch;
+-webkit-transition:all 130ms ease-in-out;
+-moz-transition:all 130ms ease-in-out;
+-o-transition:all 130ms ease-in-out;
+transition:all 130ms ease-in-out;
   z-index:1;
 }
 
 .content.panned {
 	left:250px;
+	right:-250px;
 }
 
 /* Remove usual bullet styles from list */
@@ -508,8 +506,7 @@ form {
 
 .feed_list.list.inset {
 	border-radius:0;
-	background:#fff;
-	box-shadow: 0 0 40px rgba(0,0,0,0.15) inset, 0 1px 3px rgba(0,0,0,0.1);
+	/*box-shadow: 0 0 40px rgba(0,0,0,0.15) inset, 0 1px 3px rgba(0,0,0,0.1);*/
 }
 
 .feed_list.list.inset li {
@@ -520,6 +517,8 @@ form {
 	border-left:1px solid #b1b1b1;
 	border-bottom:1px solid #b1b1b1;
 	margin-right:-1px;
+	background:#fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .feed_list.list.inset li.top {
@@ -599,7 +598,7 @@ form {
 	display:block;
 	height:60px;
 	line-height:60px;
-	font-size:195%;
+	font-size:155%;
 	margin-left:10px;
 	text-align:left;
 	width:110px;
@@ -1027,15 +1026,24 @@ body.login_page .content {
 	text-shadow:none;
 }
 
-.login_inputs {
- 	margin:0 20px;
+form.login_form {
+	 margin:0 20px;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+}
+
+form.login_form .big_btn {
+	width:100%;
+	margin: 0 0 20px 0;
+	border:none;
+}
+
+.login_inputs {
 	width:auto;
 }
 
-.login_inputs input {
+.login_inputs input[type="text"] {
 	height:40px;
 	padding:4px 10px 0 10px;
 	-moz-box-sizing: border-box;
@@ -1056,7 +1064,11 @@ body.login_page .content {
 	border-top:none;
 }
 
-.login_inputs input:last-child {
+.login_inputs input[type="text"]:focus {
+	text-align:left;
+}
+
+.login_inputs input[type="text"]:last-child {
 	border-radius:0 0 8px 8px;
 	border-bottom:none;
 	border-top:1px solid #384c63;
@@ -1291,6 +1303,7 @@ h2.settings_title {
 	position: absolute;
    	left: 0;
    	top: 50px;
+	z-index:-2;
 }
 
 #menu ul {
